@@ -43,7 +43,7 @@ rm -rf bootstrap-*
 # Add Bootstrap tags to the index.html
 sed -i "" -e $'15a\\\n        <link rel="stylesheet" href="css\/bootstrap.min.css">' index.html
 sed -i "" -e $'16a\\\n        <link rel="stylesheet" href="css\/bootstrap-theme.min.css">' index.html
-sed -i "" -e $'30a\\\n<script type="text\/javascript" src=js/bootstrap.min.js><\/script>' index.html
+sed -i "" -e $'30a\\\n        <script type="text\/javascript" src=js/bootstrap.min.js><\/script>' index.html
 
 # Initalize Git
 git init >> /dev/null 
