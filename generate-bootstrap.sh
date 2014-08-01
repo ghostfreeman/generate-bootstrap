@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Copyright (c) 2014 Cameron Kilgore
 # 
@@ -20,13 +20,10 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
-echo "Strike ^C if you don't want to initalize HTML5 Boilerplate"
-sleep 5
-
 # Init H5BP
 echo "Initalizing HTML5 Boilerplate (v4.3.0)"
 curl -L --silent https://github.com/h5bp/html5-boilerplate/archive/v4.3.0.zip | tar zx
-cd html5-boilerplate-4.3.0
+cd html5-boilerplate-*
 cp -rf . ../
 cd ..
 rm -rf html5-boilerplate-*
