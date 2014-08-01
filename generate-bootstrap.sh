@@ -53,4 +53,4 @@ git add  . >> /dev/null
 git commit -qm "Initial Commit" >> /dev/null
 
 # We're done
-Echo "Directory has been cloned and committed. Good hacking."
+echo "Directory has been cloned and committed. Good hacking."
